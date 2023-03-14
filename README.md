@@ -7,13 +7,13 @@ First designed in 2023-02, updated in March 03
 ## An example (in terminal) ##
 Array length: 5
 Please input numbers in the array: 2 3 4 5 4
-The array before Bubble Sort: [2, 3, 4, 5, 4]
+-The array before Bubble Sort: [2, 3, 4, 5, 4]
 
-Because 2 < || = 3, position 1 and 2 do not change place. 
-Now the array is: [2, 3, 4, 5, 4]
+-Because 2 < || = 3, position 1 and 2 do not change place. 
+-Now the array is: [2, 3, 4, 5, 4]
 
-Because 3 < || = 4, position 2 and 3 do not change place. 
-Now the array is: [2, 3, 4, 5, 4]
+-Because 3 < || = 4, position 2 and 3 do not change place. 
+-Now the array is: [2, 3, 4, 5, 4]
 
 Because 4 < || = 5, position 3 and 4 do not change place. 
 Now the array is: [2, 3, 4, 5, 4]
