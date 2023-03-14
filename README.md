@@ -40,3 +40,5 @@ There was only 1 change made in this array.
 
 Although Bubble Sort is easy to understand and implement, it is not an efficient sorting algorithm for large datasets. Other sorting algorithms such as QuickSort and MergeSort are usually preferred for practical purposes.
 
+## Quicksort ##
+Not Available now
