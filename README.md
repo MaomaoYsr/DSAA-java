@@ -6,7 +6,7 @@ Data structures and algorithms in java
 
 First designed in 2023-02 and updated in 03.
 
-## An example (in terminal) ##
+## An example  ##
 
 Array length: 5
 
