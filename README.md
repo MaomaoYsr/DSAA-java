@@ -2,7 +2,7 @@
 
 Data structures and algorithms in java
 
-## bubble sort ##
+## Bubblesort ##
 
 First designed in 2023-02 and updated in 2023-03.
 
