@@ -6,40 +6,37 @@ Data structures and algorithms in java
 
 First designed in 2023-02 and updated in 2023-03.
 
+Bubble sort is a simple sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order. It is commonly taught in computer science courses as an introductory example of a sorting algorithm.
 
-Bubblesort is a sorting algorithm that works by repeatedly swapping adjacent elements if they are in the wrong order. It is a simple and commonly taught algorithm, often used as an introductory example in computer science courses.
+The time complexity of bubble sort is O(n^2) in the worst case scenario, where n is the number of elements in the array. This means that the time required to sort the array grows quadratically with the size of the input.
 
-The algorithm has a time complexity of O(n^2) in the worst case, where n is the number of elements in the array. This means that the time required to sort the array grows quadratically with the size of the input.
+### Algorithm Description ###
 
-Bubblesort starts by comparing the first two elements of an array and swapping them if they are in the wrong order. It then moves on to compare the second and third elements, and so on, until the last two elements are compared and swapped if necessary. This process is then repeated until no more swaps are needed, indicating that the array is now sorted.
+The bubble sort algorithm starts by comparing the first two elements of an array and swapping them if they are in the wrong order. It then moves on to compare the second and third elements, and so on, until the last two elements are compared and swapped if necessary. This process is repeated until no more swaps are needed, indicating that the array is now sorted.
 
-While Bubblesort is a simple and easy-to-understand algorithm, it is not efficient for large datasets. It is often used as a teaching tool to introduce students to basic sorting algorithms, but for practical purposes, more efficient sorting algorithms such as QuickSort or MergeSort are preferred.
-
-### An example  ###
+### Example ###
+Let's say we have an array of length 5 and the input numbers are: 2, 3, 4, 5, 4. The following shows the step-by-step process of sorting this array using the bubble sort algorithm:
 
 Array length: 5
+Please input numbers in array: 2 3 4 5 4
+The array before Bubble Sort: [2, 3, 4, 5, 4]
 
-Please input numbers in array:
-
-2 3 4 5 4
-
-The array before Bubblesort: [2, 3, 4, 5, 4]
-
-- Cuz 2 < || = 3, so 1 and 2 do not change place. Now the array is: [2, 3, 4, 5, 4]
-- Cuz 3 < || = 4, so 2 and 3 do not change place. Now the array is: [2, 3, 4, 5, 4]
-- Cuz 4 < || = 5, so 3 and 4 do not change place. Now the array is: [2, 3, 4, 5, 4]
-- Cuz 5 > 4, so 4 and 5 change place. Now the array is: [2, 3, 4, 4, 5]
+- Since 2 < || = 3, no change is made. Now the array is: [2, 3, 4, 5, 4]
+- Since 3 < || = 4, no change is made. Now the array is: [2, 3, 4, 5, 4]
+- Since 4 < || = 5, no change is made. Now the array is: [2, 3, 4, 5, 4]
+- Since 5 > 4, 4 and 5 are swapped. Now the array is: [2, 3, 4, 4, 5]
 
 The 1st turn result: [2, 3, 4, 4, 5]
 
-- Cuz 2 < || = 3, so 1 and 2 do not change place. Now the array is: [2, 3, 4, 4, 5]
-- Cuz 3 < || = 4, so 2 and 3 do not change place. Now the array is: [2, 3, 4, 4, 5]
-- Cuz 4 < || = 4, so 3 and 4 do not change place. Now the array is: [2, 3, 4, 4, 5]
+- Since 2 < || = 3, no change is made. Now the array is: [2, 3, 4, 4, 5]
+- Since 3 < || = 4, no change is made. Now the array is: [2, 3, 4, 4, 5]
+- Since 4 < || = 4, no change is made. Now the array is: [2, 3, 4, 4, 5]
 
 The 2nd turn result: [2, 3, 4, 4, 5]
 
-After sorting, the array is: [2, 3, 4, 4, 5]
-
+After sorting, the final array is: [2, 3, 4, 4, 5]
 There was only 1 change made in this array.
 
+
+Although Bubble Sort is easy to understand and implement, it is not an efficient sorting algorithm for large datasets. Other sorting algorithms such as QuickSort and MergeSort are usually preferred for practical purposes.
 
