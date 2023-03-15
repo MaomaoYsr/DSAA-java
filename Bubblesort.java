@@ -1,4 +1,4 @@
-//version 1.1 update 2023-03-14
+//version 1.12 update 2023-03-15
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Bubblesort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the length of the array: ");
+        System.out.println("Enter the length of the array: ");
         int len = sc.nextInt();
         int[] arr = new int[len];
         System.out.println("Enter the elements of the array: ");
